@@ -6,7 +6,7 @@
 }
 /* Aca dejo el color de fondo del sitio web */
 body {
-    background-color: black;
+    background-color: #ffffff;
 }
 /* Desde aca arrancan los estilos del navbar de bootstrap */
 .barra {
@@ -27,6 +27,35 @@ body {
 }
 /* Desde aca van todos los "H" que se puedan encontrar en el sitio web */
 h1, h2 {
-    color: #ffffff;
+    color: #0033a0;
     text-align: center;
+}
+/* las tarjetas de bootstrap donde estan las imagenes no llevan estilos. */
+.card-img-top {
+    background-color: #ffffff;
+    
+}
+/*los carteles de bootstrap si llevan algunos estilos.  */
+.card-text {
+    margin: 80px;
+}
+.card-header {
+    color: #0033a0;
+}
+/* los estilos del footer y todo lo que va alli a dentro. */
+footer {
+    background:#0033a0 ;
+    width: 100%;
+    height: 20vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    flex-direction: column;
+    margin: 10px;
 }
