@@ -1,0 +1,32 @@
+/*Desde aca se configuran los tamaños para los navegadores.*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Aca dejo el color de fondo del sitio web */
+body {
+    background-color: black;
+}
+/* Desde aca arrancan los estilos del navbar de bootstrap */
+.barra {
+    background-color: #0033a0;
+}
+.tittle {
+    color: #ffffff;
+}
+.dropdown {
+    border-color: #ffffff;
+}
+.nav-link {
+    color: #ffffff;
+    text-align: center;
+}
+.nav-link:hover {
+    color:  #ffffff;
+}
+/* Desde aca van todos los "H" que se puedan encontrar en el sitio web */
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+}
